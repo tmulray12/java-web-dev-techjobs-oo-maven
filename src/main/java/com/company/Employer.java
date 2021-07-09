@@ -29,13 +29,13 @@ public class Employer extends JobField {
 //        return this.value;
 //    }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Employer employer = (Employer) o;
-        return getId() == employer.getId();
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        Employer employer = (Employer) o;
+//        return getId() == employer.getId();
+//    }
 
 //    @Override
 //    public int hashCode() {

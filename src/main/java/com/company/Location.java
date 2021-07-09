@@ -29,13 +29,13 @@ public class Location extends JobField {
 //    @Override
 //    public String toString() { return this.value; }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Location location = (Location) o;
-        return getId() == location.getId();
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        Location location = (Location) o;
+//        return getId() == location.getId();
+//    }
 
 //    @Override
 //    public int hashCode() {
